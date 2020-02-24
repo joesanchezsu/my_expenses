@@ -101,7 +101,7 @@ class _FancyFabState extends State<FancyFab>
         onPressed: () =>
             Navigator.pushReplacementNamed(context, '/categories_in'),
         tooltip: 'Income',
-        child: Icon(Icons.arrow_back),
+        child: Icon(Icons.keyboard_arrow_left),
       ),
     );
   }
@@ -114,7 +114,7 @@ class _FancyFabState extends State<FancyFab>
         onPressed: () =>
             Navigator.pushReplacementNamed(context, '/categories_out'),
         tooltip: 'Income',
-        child: Icon(Icons.arrow_forward),
+        child: Icon(Icons.keyboard_arrow_right),
       ),
     );
   }
